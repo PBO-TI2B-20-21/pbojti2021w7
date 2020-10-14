@@ -1,0 +1,16 @@
+package aula.inheritance2.percobaan1;
+
+/**
+ *
+ * @author Aulafz
+ */
+public class Inheritance1 {
+
+    public static void main(String[] args) {
+        StaffTetap ST = new StaffTetap("Budi", "Malang", "Lakilaki", 20, 2000000, 250000, 200000, "2A", 1000000);
+        ST.tampilStaffTetap();
+
+        StaffHarian SH = new StaffHarian("Indah", "Malang", "Perempuan", 27, 10000, 100000, 50000, 100);
+        SH.tampilStaffHarian();
+    }
+}
